@@ -8,6 +8,6 @@ Its responsive, has a real-time display and performs basic Math operations inclu
 - Multiplication
 - Division
 
-![Calculator Screenshot](Image/CalcSnap.png)
+![Calculator Screenshot](Image/CalcSnap.PNG)
 
 Built by [Dominic Kipsang](https://github.com/Dominic-developer)
