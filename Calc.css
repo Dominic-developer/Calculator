@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background: rgb(244, 244, 244);
+  height: 100vh;
+  text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+    color: rgb(244, 244, 244);
+    text-shadow: 2px 2px 6px black;
+    text-decoration: underline;
+}
+
+.calculator {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin: auto;
+  background: rgb(34, 34, 34);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+}
+
+#result {
+  width: 95%;
+  height: 50px;
+  margin-bottom: 10px;
+  text-align: right;
+  padding: 10px;
+  font-size: 24px;
+  background: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 70px);
+  gap: 10px;
+}
+
+button {
+  padding: 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(110, 110, 110);
+  color: white;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background-color: rgb(80, 80, 80);
+}
+
+.operator {
+  background-color: rgb(255, 149, 0);
+}
+
+.operator:hover {
+  background-color: rgb(253, 122, 0);
+}
+
+.equal {
+  background-color: rgb(40, 167, 69);
+}
+
+.equal:hover {
+  background-color: rgb(10, 124, 35);
+}
+
+.clear {
+  background-color: rgb(220, 53, 69);
+}
+
+.clear:hover {
+  background-color: rgb(200, 35, 51);
+}
